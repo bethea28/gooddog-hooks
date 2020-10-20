@@ -236,7 +236,8 @@ let App = () => {
   return (
     <section className='app-component'>
       <p>
-        {/* I have <strong>{finalList?.length}</strong> breeds ready to be searched! */}
+        I have <strong>{allBreeds.breed?.length}</strong> breeds ready to be
+        searched!
       </p>
       <input
         onClick={() => setShowModal(!showModal)}
